@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .a{
+            width: 100%;
+            height: 150px;
+            border: 1px solid black;
+        }
+        .A1{
+                margin-left: 550px;
+                margin-top: -30px;
+                font-size: 24px;
+                color: black;
+        }
+        .A1,span{
+            color: black;
+        }
+        .b{
+            margin-top: 40px;
+            margin-left: 40px;
+            display: inline-block;
+        }
+        .A2{
+            width: 100%;
+            height: 60px;
+           
+        }
+        .c{
+                display: inline-block;
+                margin-left: 130px;
+                margin-top: 20px;
+                font-size: 15px;
+        }
+        .d{
+            width: 100%;
+            height: 550px;
+        }
+        .e{
+            
+            height: 450px;
+            width: 100%;
+            color: white;
+            margin-top: 140px;
+            margin-left: -50px;
+        }
+      .A2:hover {
+        color: rgb(4, 0, 255);
+       }
+       h1{
+        font-size: 40px;
+        text-align: center;
+       }
+       .f{
+        width: 400px;
+        height: 270px;
+        display: inline-block;
+        margin-left: 30px;
+       }
+       .g{
+        width: 100%;
+        height: 500px;
+        background-color: white;
+       
+       }
+       .g10{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+       }
+       .g1{
+        width: 50%;
+        height: 500px;
+        margin-top: -400px;
+        margin-left: 500px;
+       }
+       .g2{
+        width: 50%;
+        height: 500px;
+        margin-right: 700px;
+        margin-top: 50px;
+       }
+       .g1:hover{
+        background-color: rgb(172, 165, 165);
+        border-radius: 70px;
+       }
+       .g2:hover{
+        background-color: rgb(172, 168, 168);
+        border-radius: 70px;
+       }
+       .g1,.g2,span:hover{
+       
+        color: white;
+       }
+       .g3{
+        width: 50%;
+        height: 500px;
+        margin-right: 700px;
+        margin-top: 200px;
+       }
+       .g4{
+        width: 70%;
+        height: 500px;
+        margin-left: 700px;
+       
+       }
+       .h{
+        width: 100%;
+        height: 450px;
+        background-color: white;
+       
+       }
+      .g5{
+       
+        margin-left: 750px;
+        margin-top: -350px;
+      }
+      .g6{
+        
+        margin-right: 700px;
+      }
+      .i{
+        width: 48%;
+        height: 600px;
+        display: inline-flex;
+        margin-left: 5px;
+        margin-top: -150px;
+      }
+      .j{
+        border: 1px solid rgb(206, 204, 204);
+        width: 100%;
+        height: 150px;
+        margin-top: 50px;
+      }
+    .a10{
+        font-size: 20px;
+        border-radius: 50px 50px 50px 50px;
+        padding: 15px 20px 15px 20px;
+        margin-left: 10px;
+    }
+    .a10:hover{
+        background-color: rgb(80, 78, 78);
+        border: 1px solid black;
+    }
+    .k{
+        width: 100%;
+        height: 800px;
+        border: 1px solid rgb(163, 161, 161);
+        background-color: rgb(223, 221, 221);
+    }
+    .g11{
+        margin-top: -50px;
+    }
+    .z{
+        font-size: 20px ;
+        text-transform: capitalize
+    }
+    .y{
+        font-size: 35px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .x{
+        font-size: 25px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .n{
+        text-transform: capitalize; 
+        color: rgb(23, 104, 211);
+        font-size: 30px;
+    }
+    .k1{
+        width: 150px;
+        height: 200px;
+        display: inline-block;
+        margin-left: 140px;
+        text-align: center;
+        margin-top: 10px;
+    }
+   .k2{
+        width: 150px;
+        height: 400px;
+        display: inline-block;
+        margin-left: 140px;
+        text-align: center;
+        margin-top: 20px;
+   }
+   .k1:hover,.k2:hover{
+        text-decoration: underline;
+   }
+   .k3{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+   }
+   .k4{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+   }
+   
+    </style>
+</head>
+<body>
+   <div class="a">
+    <img src="data:image/png;base64,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" alt="" height="100px" style="margin-left: 28px; margin-top: 10px;">
+    <form action=""  style="margin-left: 310px; margin-top: -80px;">
+        <input type="text" name="Search Dell" placeholder="Search Dell" style=" padding: 10px 250px 10px 10px; border-radius: 10px;"> 
+        <div class="A1">
+            <a href="" style="text-decoration: none;"><i class="fa fa-address-book" style="color: black;"></i><span >Sign in</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=""  style="text-decoration: none;"><i class="fa fa-phone-square" style="color: black;"></i><span>conct us</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=""   style="text-decoration: none;"><i class='fas fa-snowflake' style="color: black;"></i><span>IN/EN</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=""   style="text-decoration: none;"><i class="fa fa-cart-plus" style="color: black;"></i><span>Cart</span></a>
+        </div>
+    </form>
+    
+        <div class="b">
+            <select name="" id="">
+            <option value="">APEX <i class='fas fa-angle-down'></i></option>
+            <option value="view all apex">view all apex</option>
+
+            <option value="Compute & HCL">Compute & HCL
+                <option value="APX private cloud">APX private cloud</option>
+                <option value="APx compute">APx compute</option>
+            </option>
+
+            <option value="Stroge">Stroge
+                <option value="APX stroge for private cloud">APX stroge for private cloud</option>
+                <option value="APX stroge for public  cloud">APX stroge for public  cloud</option>
+            </option>
+
+            <option value="APX pc-a-service">APX pc-a-service</option>
+
+            <option value="Resoures">Resoures
+                <option value="APX use causes">APX use causes</option>
+                <option value="APX bunsiss value">APX bunsiss value</option>
+                <option value="APX value">APX value</option>
+            </option>
+        </select>
+    </div>
+
+    <div class="b">
+        <select name="" id="">
+        <option value=""> Products
+            
+           <option value="Laptop">Laptop 
+           <option value="For home"> For home</option>
+            <option value="For bunsiss">For bunsiss</option>
+        </option>
+
+        <option value="Gamming">Gamming
+            <option value="Dell gamming">Dell gamming</option>
+            <option value="G series laptop">G series laptop</option>
+        </option>
+
+        <option value="Data Stroge">Data Stroge</option>
+        <option value="Electronics & Accsessrioes">Electronics & Accsessrioes
+
+            <option value="For home">For home</option>
+            <option value="For Bunsiss">For Bunsiss</option>
+        </option>
+    </select>
+    </div>
+
+    <div class="b">
+        <select name="" id="">
+            <option value="">Solutions
+
+                <option value="view all solutions">view all solutions</option>
+
+                <option value="cloud solutions">cloud solutions
+                    <option value="APX cloud services">APX cloud services</option>
+                    <option value="cloud solutions for stroge">cloud solutions for stroge</option>
+                    <option value="multicloud solustion sevices">multicloud solustion sevices</option>
+                </option>
+
+                <option value="Developers & Devops">Developers & Devops</option>
+                 <option value="Edge solutions">Edge solutions</option>
+
+                 <option value="Indrustry solutions">Indrustry solutions
+                    <option value="Digital citis">Digital citis</option>
+                    <option value="Financial">Financial</option>
+                    <option value="Retail">Retail</option>
+                 </option>
+
+                 <option value="OME solutions">OME solutions</option>
+            </option>
+        </select>
+    </div>
+    
+    <div class="b">
+        <select name="" id="">
+            <option value="">Services
+                <option value="view all services">view all services</option>
+                <option value="Security services">Security services</option>
+                <option value="Development services">Development services</option>
+                <option value="support services">support services</option>
+                <option value="Tecnoilogy & Tools">Tecnoilogy & Tools</option>
+                <option value="Eduction sevices">Eduction sevices</option>
+            </option>
+        </select>
+    </div>
+
+    <div class="b">
+        <select name="" id="">
+            <option value="">Support
+                <option value="Home support">Home support</option>
+                <option value="Support libriay">Support libriay</option>
+                <option value="order support">order support</option>
+                <option value="Concat support">Concat support</option>
+            </option>
+        </select>
+    </div>
+    <div class="b" style="font-size: 20px;">Find a store</div>
+   </div> 
+
+   <div class="A2">
+    <div class="c"><i class="material-icons" style="font-size: 50px;">laptop_chromebook</i><br>Laptop</div>
+    <div class="c"><i class="material-icons" style="font-size: 50px;">desktop_mac</i><br>Desktop</div>
+    <div class="c"><i class="material-icons" style="font-size: 50px;">mouse</i><br>Alinware</div>
+    <div class="c"> <i class="material-icons" style="font-size: 50px;">receipt</i><br>Workstations</div>
+      <div class="c"><i class="material-icons" style="font-size: 50px;">computer</i><br>Monitor</div> 
+      <div class="c"><i class="material-icons" style="font-size: 50px;">dashboard</i><br>Services & Stroges</div>
+
+      <div class="d"  height="400px" width="100%" style="background-image: url(https://d1s3ya6q0uirpx.cloudfront.net/sites/default/files/desktop_background.jpg);background-repeat: no-repeat;background-size: cover;">
+      
+</div>
+   </div>
+   <div class="e" > <span style="margin-left: 60%;font-size: 30px;margin-top: 50px;color: white;">FESTIVE OFFERS</span><br> <br><span style="margin-left: 60%; font-size: 60px;color: white;">Get set. Celebrate.</span><br><br><span style="margin-left: 60%;font-size: 20px;color: white;">Let your festive seasion be incredible with awesome </span><br><span style="margin-left: 60%;font-size: 20px;color: white;"> offers on Dell PCs.@</span><br>
+
+   <a href="https://www.dell.com/en-in/work/shop/business-pcs-desktop-computers/sr/desktops/optiplex-desktops"><button style="background-color: white;color: black;margin-left: 60%;margin-top: 30px;padding: 15px 30px 15px 30px;font-size: 20px;">For Home</button></a>
+    <a href="https://www.dell.com/en-in/work/shop/business-pcs-desktop-computers/sf/optiplex-desktops"><button style="padding: 15px 30px 15px 30px; font-size: 20px;background-color:  rgb(62, 125, 184);color: white; margin-left: 10px;">For Busniss</button></a>
+</div>
+<h1 >Explore Dell Technologies</h1>
+<div class="f"> <img src="https://static1.bigstockphoto.com/2/7/2/large1500/272265343.jpg" alt="" width="400px" height="270px"></div>
+<div class="f"><img src="https://burst.shopifycdn.com/photos/chicago-city-lights-at-night.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="" width="400px" height="270px"></div>
+<div class="f"><img src="https://media.istockphoto.com/id/1440041881/photo/futuristic-sci-fi-city-center-with-flying-vehicles.jpg?s=1024x1024&w=is&k=20&c=KMRXq7c0Eu_J-hYv5tmSVdZ5ld0JIAGjcBdvrgJqcnY=" alt="" width="400px" height="270px"></div>
+
+<div class="g10">
+    <img   src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/apj/modules/india-festive-cons-dell-xps-9530t-uhp-2403-09-in-mod-rf-1023x842.png?fmt=png-alpha&wid=1023&hei=842" alt="" width="50%" height="400px">
+   <center> <div class="g1" style="width:500px;height: 300px;" >
+    <span class="z" >XPS LAPTOPS</span> <br><br>
+    <span class="y">Create what you love</span><br><br>
+    <span class="x">Create your own festive magic with the <br>newest offers on the latest tech. Get No <br>Cost EMI & headsets.</span> <br><br><br><span style="font-size: 15px;">T&Cs apply.</span> <br><br>
+    <span class="n">Shop Now &nbsp;&nbsp;| &nbsp;&nbsp; Learn maore</span></div></center>
+</div>
+
+<div class="g11">
+   <marquee behavior="" direction="right"  scrollamount="20" loop="50"><img src="https://m.media-amazon.com/images/I/91oF9q-jE5L.jpg" alt=""  style="height: 100px "></marquee>   
+ <marquee behavior="" direction="left" scrollamount="20" loop="50"> <img src="https://m.media-amazon.com/images/I/91oF9q-jE5L.jpg" alt=""  style=" height: 100px;"></marquee></div>
+
+ <div class="g">
+    <center><div class="g2" style="width:500px;height: 300px;">
+        <span class="z">LATITUDE LAPTOPS</span><br><br>
+        <span class="y">Business Without <br> Boundaries</span><br><br>
+        <span class="x">The redesigned Latitude family with 13th <br>Gen Intel Core processors makes working <br>on the go an immersive experience.</span><br><br>
+        <span class="n">Shop Now &nbsp;&nbsp;| &nbsp;&nbsp; Learn maore</span></div></center>
+    <img  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/apj/modules/bto-sb-dell-latitude-5540t-7440nt-ms-uhp-2403-06-in-mod-lf-1023x842.png?fmt=png-alpha&wid=1023&hei=842" alt="" height="500px" style="margin-left: 700px;margin-top: -400px;">
+</div>
+
+<div class="g" style="margin-top: -140px;">
+    <center><div class="g3" style="width:500px;height: 100px;" >
+        <span style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Dell Support</span><br><br>
+        <span style="font-size: 30px;font-family: 'Times New Roman', Times, serif;">Get your questions answered</span></div></center>
+    <div class="g4" style="width:590px;height: 500px; margin-top: -300px;">
+        <i class="material-icons" style="font-size: 40px;color: rgb(32, 32, 211);">headset</i>&nbsp;&nbsp;&nbsp;<span style="color: rgb(32, 32, 187);font-size: 30px;">contact support</span><p style="font-size: 25px;margin-left: 40px;">Let us assist you with any product or service questions</p><hr>
+        <i class="material-icons" style="font-size: 40px;color: rgb(32, 32, 211);">playlist_add_check</i>&nbsp;&nbsp;&nbsp;<span style="color: rgb(32, 32, 187);font-size: 30px;">Warranty and Contracts</span><p style="font-size: 25px;margin-left: 40px;">Check warranty of the product</p><hr>
+        <i class="material-icons" style="font-size: 40px;color: rgb(32, 32, 211);">library_books</i>&nbsp;&nbsp;&nbsp;<span style="color: rgb(32, 32, 187);font-size: 30px;">Product Support</span><p style="font-size: 25px;margin-left: 40px;">Expertise. Convenience. Quality Support.</p><hr>
+        <i class="fa fa-cog" style="font-size: 40px;color: rgb(32, 32, 211);"></i>&nbsp;&nbsp;&nbsp;<span style="color: rgb(32, 32, 187);font-size: 30px;">Product Support</span><p style="font-size: 25px;margin-left: 40px;">Expertise. Convenience. Quality Support.</p>
+    </div>
+</div>
+
+<div class="h" style="margin-top: -40px;"><img  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/en/poweredge-16g-postannounce-banner-module-desktop-1288x785.png?fmt=jpg&wid=1288&hei=785" alt="" height="450px" style="margin-top: -100px;">
+    <center> <div class="g5" style="width:500px;height: 300px; " >
+        <span class="z">POWEREDGE SERVERS</span> <br><br>
+        <span class="y">Accelerating Where You Never <br>Thought Possible</span><br> <br><br>
+        <span class="x">Shop the next generation of PowerEdge Server.</span><br><br>
+        <span class="n">Shop Now &nbsp;&nbsp;| &nbsp;&nbsp; Learn maore</span></div></center>
+</div>
+
+<div class="h">
+    <center> <div class="g6" style="width:500px;height: 300px; " >
+        <span class="z">CREATE WITH PRECISION</span> <br><br>
+        <span class="y">Where You Go, Innovation Follows</span><br> <br><br>
+        <span class="x">High-performance workstations built to handle <br>intense creative applications..</span><br><br>
+        <span class="n">Shop Now &nbsp;&nbsp;| &nbsp;&nbsp; Learn maore</span></div></center>
+    <img   src="https://www.asus.com/media/Odin/Websites/global/ProductLine/20210913111446.png" alt="" height="500px" style="margin-left: 700px; margin-top: -400px;">
+</div>
+</div>
+
+<div class="i" style="border-right: 1px solid gray; "><center>
+    <span class="z">FESTIVE OFFERS</span> <br><br>
+    <span class="y">Light Up Your Festive Season</span><br> <br><br>
+    <span class="x">Supercharge productivity & security with Offers on Headset, No <br> Cost EMI & more. T&Cs apply</span><br><br>
+    <span class="n">Laptop Deals</span>
+   <div class="i1"> <img  src="https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/apj/2-ups/diwali-offers-sb-dell-xps-9730t-uhp-2403-13-in-2up-mod-800x400.png?fmt=png&pscan=auto&scl=1&wid=800&hei=400&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" height="300px" style="margin-top: 80px;"></div>
+</div></center> 
+
+<div class="i" style=" margin-left: 30px;"><center>
+    <span class="z">COMPUTER ELECTRONICS AND ACCESSORIES</span> <br><br>
+    <span class="y">Overprepared For Everything</span><br> <br><br>
+    <span class="x">Whether you're looking for a keyboard, mouse, docking station or <br> something else, we've got you covered.</span><br><br>
+    <span class="n">Shop Now</span>
+    <div class="i1"> <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/accessories/1-km7321w-wl5022-hd22q-800x400.jpg?fmt=png&pscan=auto&scl=1&wid=800&hei=400&resMode=sharp2&size=800,400&op_usm=1.75,0.3,2,0" alt="" height="300px" style="margin-top: 80px;"></div>
+</center></div>
+
+<div class="j"> <br><center><span style="font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">Based on my visit today, I would say Dell Technologies is...</span> <br> <br>
+<span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 15px; margin-right: 15px;">Not at all innovative</span>
+       <button  class="a10">1 </button>
+        <button class="a10" >2 </button>
+        <button class="a10">3 </button>
+        <button class="a10" >4 </button>
+        <button class="a10" >5 </button>
+        <button class="a10">6 </button>
+        <button class="a10">7</button>
+        <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 15px;margin-left: 15px;">Extremely innovative</span>       
+</center></div>
+
+<div class="k">
+    <div class="k1"> 
+        <br> <br><br><h3>Site Map </h3><br><br><br>
+        
+    </div>
+    <div class="k1" >
+       <h3> Account <br> <br></h3>
+        My Account <br> <br>
+        Order Status <br> <br>
+        My Products
+    </div>
+    <div class="k1">
+       <h3> Support <br> <br></h3>
+        Support Home <br> <br>
+        Contact Support <br> <br>
+        Returns</div>
+    <div class="k1" >
+        <h3>Connect with Us <br> <br></h3>
+        Community <br> <br>
+        Contact Us <br><br> <br>
+   </div>
+
+   <div class="k2">
+    <h3>Our Offerings <br><br> </h3>
+    APEX <br><br> 
+    Products<br><br> 
+    Solutions<br><br> 
+    Services<br><br> 
+    Deals<br><br> <br><br> <br><br> <br><br> <br><br>
+   </div>
+   <div class="k2">
+        <h3>Our Company <br> <br></h3>
+            Who We Are <br> <br>
+            Careers <br><br>
+            Dell Technologies Capital <br><br>
+            Investors <br><br>
+            Newsroom <br><br>
+            Perspectives <br><br>
+            Recycling <br><br>
+            ESG & Impact <br><br>
+            Customer Stories
+   </div>
+   <div class="k2">
+    <h3>Our Partners <br><br></h3>
+    Find a Partner <br><br>
+    OEM Solutions<br><br>
+    Partner Program<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   </div>
+   <div class="k2">
+   <h3> Resources <br><br></h3>
+    Blog<br><br>
+    Events<br><br>
+    Dell Learning Centre<br><br>
+    Glossary<br><br>
+    Privacy Centre<br><br>
+    Resource Library<br><br>
+    Trial Software Downloads<br><br><br><br><br>
+   </div>
+
+ <div class="k3"><h3>Dell Technologies</h3></div>
+ <div class="k3"><h3>Dell Premier</h3></div>
+
+ <br><div class="k4">Copyright © 2023 Dell Inc.</div>
+ <div class="k4">Terms of Sale</div>
+ <div class="k4">Privacy Statement</div>
+ <div class="k4">Legal & Regulatory</div>
+ <div class="k4">Accessibility</div>
+</div>
+</body>
+</html>
